@@ -14,13 +14,13 @@ import Group22 from '../../../Images/Group22.png'
 function SectionOne() {
     return (
       <>
-        <div className="bg-white rounded-4 p-4">
-          <div className="d-flex justify-content-end mb-3">
-            <ArrowLeft className="text-warning me-3" />
-            <ArrowRight className="text-warning" />
-          </div>
-          <div className="d-flex">
-            <div>
+        <div className="container">
+          <div className="row bg-white rounded-4 p-3">
+            <div className="d-flex justify-content-end mb-3">
+              <ArrowLeft className="text-warning me-3" />
+              <ArrowRight className="text-warning" />
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <h5 className="text-warning fw-bold mb-4">
                 Create Metroverse Genesis
               </h5>
@@ -61,12 +61,12 @@ function SectionOne() {
                 </tbody>
               </table>
             </div>
-            <div>
-              <img src={BannerImg} />
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <img src={BannerImg} className='img-fluid'/>
             </div>
           </div>
         </div>
-        <div className="container ">
+        <div className="container collections">
           <div className="container-fluid pt-5">
             <div className="d-flex justify-content-between">
               <p className="text-lead fs-4">Top Collections</p>
@@ -78,14 +78,14 @@ function SectionOne() {
               </button>
             </div>
           </div>
-          <div className="row my-3 ms-5">
-            <div className="col-4">
+          <div className="row my-3">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <img src={Group17} className="container-fluid" />
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <img src={Group18} className="container-fluid" />
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <img src={Group19} className="container-fluid" />
             </div>
           </div>
@@ -100,14 +100,14 @@ function SectionOne() {
               </button>
             </div>
           </div>
-          <div className="row my-3 ms-5">
-            <div className="col-4">
+          <div className="row my-3">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <img src={Group20} className="container-fluid" />
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <img src={Group21} className="container-fluid" />
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
               <img src={Group22} className="container-fluid" />
             </div>
           </div>

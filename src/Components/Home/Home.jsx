@@ -16,10 +16,10 @@ function Home() {
           <div className="col-10 fead">
             <div className="row ">
               <NavBar />
-              <div className="col-8 min-vh-100 ">
+              <div className="col-lg-8 col-md-8 col-sm-12 min-vh-100 ">
                 <SectionOne />
               </div>
-              <div className="col-4 ">
+              <div className="col-lg-4 col-md-4 col-sm-12">
                 <SectionTwo />
               </div>
             </div>
